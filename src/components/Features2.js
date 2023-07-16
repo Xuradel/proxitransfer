@@ -9,17 +9,18 @@ function Features2() {
     useEffect(() => {
 
     })
-    toggler.addEventListener('click', function () {
+    toggler?.addEventListener('click', function () {
         if (!toggle) { setToggle(true) }
     })
 
-    toggler2.addEventListener('click', function () {
+    toggler2?.addEventListener('click', function () {
         if (toggle) { setToggle(false) }
     })
 
 
     return (
         <div className='features2'>
+            <h2>How it works</h2>
             <div className='toggler-buttons'>
                 <h4 className={`option ${toggle ? 'clicked' : 'notClicked'}`} id='togglerClass'>Ways to receive money</h4>
                 <h4 className={`option ${toggle ? 'notClicked' : 'clicked'}`} id='togglerClass2'>Ways to send money</h4>

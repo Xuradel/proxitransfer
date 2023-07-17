@@ -9,11 +9,11 @@ function Features2() {
     useEffect(() => {
 
     })
-    toggler?.addEventListener('click', function () {
+    toggler.addEventListener('click', function () {
         if (!toggle) { setToggle(true) }
     })
 
-    toggler2?.addEventListener('click', function () {
+    toggler2.addEventListener('click', function () {
         if (toggle) { setToggle(false) }
     })
 

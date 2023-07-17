@@ -5,7 +5,7 @@ function Mobile2() {
         <div className='mobile-section'>
             <div className='mobile-container'>
                 <div className='mobile-image'>
-                    <img src={require('../images/mobile2.png')}></img>
+                    <img src={require('../images/mobilepic2.png')}></img>
                 </div>
                 <div className='mobile-text'>
                     <h3>Enjoy access for free</h3>

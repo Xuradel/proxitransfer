@@ -7,6 +7,8 @@ import About from './components/About';
 import Mobile1 from './components/Mobile1';
 import Mobile2 from './components/Mobile2';
 import Testimonials from './components/Testimonials';
+import Register from './components/Register';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -18,6 +20,8 @@ function App() {
     <Mobile1></Mobile1>
     <Testimonials></Testimonials>
     <Mobile2></Mobile2>
+    <Register></Register>
+    <Footer></Footer>
     </>
   );
 }

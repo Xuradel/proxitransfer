@@ -1,6 +1,6 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
-.testimonials{display:flex;flex-direction: column;align-items: center;margin: 8rem 0;gap:1rem}
+.testimonials{display:flex;flex-direction: column;align-items: center;margin: 0rem 0;gap:1rem;}
 .testimonials-section{
     display: flex;
     flex-wrap: wrap;

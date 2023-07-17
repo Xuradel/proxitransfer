@@ -10,7 +10,7 @@ function Hero() {
                 <button>Get Started Now!</button>
             </div>
             <div className='hero-image'>
-                <ReactLogo className='hero-img'></ReactLogo>
+                <img src={require('../images/mobilehero.png')}></img>
             </div>
         </header>
     )

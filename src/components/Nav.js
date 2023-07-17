@@ -21,7 +21,7 @@ function Nav() {
     return (
         <nav>
             <div class="logo">
-                <img src={require('../images/logo.png')} alt="Logo Image" />
+                <img src={require('../images/proxi.png')} alt="Logo Image" />
             </div>
             <div class="hamburger">
                 <div class="line1"></div>
@@ -30,9 +30,9 @@ function Nav() {
             </div>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><button class="login-button" href="#">Login</button></li>
                 <li><button class="join-button" href="#">Sign Up</button></li>

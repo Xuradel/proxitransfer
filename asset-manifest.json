@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/proxitransfer/static/css/main.2f2e4ed5.css",
+    "main.js": "/proxitransfer/static/js/main.0a269c96.js",
+    "static/media/mobilehero.png": "/proxitransfer/static/media/mobilehero.5e9d6eb751942e93df86.png",
+    "static/media/mobilepic2.png": "/proxitransfer/static/media/mobilepic2.1620875abf6d04831003.png",
+    "static/media/mobilepic1.png": "/proxitransfer/static/media/mobilepic1.6e9e2dd181fc7e927cee.png",
+    "static/media/Helvetica.ttf": "/proxitransfer/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/Helvetica-Bold.ttf": "/proxitransfer/static/media/Helvetica-Bold.ed57aca7292971d8548c.ttf",
+    "static/media/about.png": "/proxitransfer/static/media/about.9bca8b594ba99f35ce90.png",
+    "static/media/helvetica-light-587ebe5a59211.ttf": "/proxitransfer/static/media/helvetica-light-587ebe5a59211.6e816f786a7f97793401.ttf",
+    "static/media/proxi.png": "/proxitransfer/static/media/proxi.d274a09bf65e5f0ef28d.png",
+    "static/media/hero-image.svg": "/proxitransfer/static/media/hero-image.f51fa2a2842c34bf281c3f9876e9a471.svg",
+    "index.html": "/proxitransfer/index.html",
+    "main.2f2e4ed5.css.map": "/proxitransfer/static/css/main.2f2e4ed5.css.map",
+    "main.0a269c96.js.map": "/proxitransfer/static/js/main.0a269c96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f2e4ed5.css",
+    "static/js/main.0a269c96.js"
+  ]
+}

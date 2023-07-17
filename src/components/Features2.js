@@ -1,22 +1,27 @@
 import React, { useState, useEffect } from 'react'
 import { Fade, Zoom } from "react-awesome-reveal";
 
+
 function Features2() {
     const [toggle, setToggle] = useState(true);
-    const toggler = document.getElementById('togglerClass')
-    const toggler2 = document.getElementById('togglerClass2')
+
+    function script() {
+        const toggler = document.getElementById('togglerClass')
+        const toggler2 = document.getElementById('togglerClass2')
+
+
+        toggler?.addEventListener('click', function () {
+            if (!toggle) { setToggle(true) }
+        })
+
+        toggler2?.addEventListener('click', function () {
+            if (toggle) { setToggle(false) }
+        })
+    }
 
     useEffect(() => {
-
+        script()
     })
-    toggler.addEventListener('click', function () {
-        if (!toggle) { setToggle(true) }
-    })
-
-    toggler2.addEventListener('click', function () {
-        if (toggle) { setToggle(false) }
-    })
-
 
     return (
         <div className='features2'>
